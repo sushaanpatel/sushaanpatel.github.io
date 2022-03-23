@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #EEEDDE;
+    color: #eeecd0;
+}
+.noscroll::-webkit-scrollbar {
+    display: none;
+} 
+.noscroll {
+-ms-overflow-style: none;
+scrollbar-width: none; 
+}
+#fbutton{
+    position: fixed;
+    right: 15px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #203239;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+    } 
+::-webkit-scrollbar-track {
+background-color: transparent;
+}
+::-webkit-scrollbar {
+    width: 16px;
+}
+.butn{
+    border-radius: 20px;
+    background-color: #141E27;
+    color: #E0DDAA;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border: 2px solid #141E27;
+    padding: 0.375rem 0.75rem;
+}
+
+.lbutn{
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: #E0DDAA;
+    color: #141E27;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border: 2px solid #E0DDAA;
+    padding: 0.375rem 0.75rem;
+}
+.lbutn:disabled{
+    opacity: 50%;
+}
+.lbutn:hover{
+    color: #2e455a;
+}
+.butn:hover{
+    color: #ffffff;
+}
+.dwn{
+    width:100%;
+    min-width:300px;
+    max-width:800px;
+    border-radius:10px;
+    max-height:600px;
+    height:100%;
+    background-color:#203239;
+    color:#eeecd0;
+    border:0px;
+}
+.dwn:hover{
+    background-color: #0e1518;
+    cursor: pointer;
+    animation-name: b;
+    animation-duration: 0.2s;
+}
+@keyframes a {
+    0% {
+        background-color: #203239;
+    }
+    50% {
+        background-color: #294049;
+    }
+    100% {
+        background-color: #2e455a;
+    }
+}
+@keyframes b {
+    0% {
+        background-color: #203239;
+    }
+    50% {
+        background-color: #172429;
+    }
+    100% {
+        background-color: #0e1518;
+    }
+}
