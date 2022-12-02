@@ -1,2 +1,2 @@
-# My Link Tree
-All the links to my projects and social media
+# My portfolio
+All the links to my projects and social media, hosted at https://sushaanpatel.github.io/
