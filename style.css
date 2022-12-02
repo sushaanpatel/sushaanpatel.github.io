@@ -3,6 +3,7 @@ body{
     font-family: 'Roboto Mono', monospace;
     background-color: #252525;
     color: whitesmoke;
+    scroll-behavior: smooth;
 }
 .noscroll::-webkit-scrollbar {
     display: none;
@@ -89,4 +90,25 @@ button:hover{
     100% {
         background-color: #AF0404;
     }
+}
+
+.typewriter h1 {
+    overflow: hidden;
+    border-right: .1em solid #e10505;
+    white-space: nowrap; 
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+}
+  
+ @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+  
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #e10505; }
 }
