@@ -15,9 +15,10 @@ export const projects = [
     url: 'https://github.com/sushaanpatel/hand-digit-recognition',
   },
   {
-    name: 'Fountainhead Cites',
-    url: 'https://github.com/sushaanpatel/citation-site',
-    icon: '/icons/fs.png',
+    name: 'Fix My Elo',
+    url: 'https://github.com/UTMIST/fix-my-elo',
+    icon: '/icons/utmist.png',
+    tag: 'UTMIST',
   },
   {
     name: 'Memeology',
